@@ -1,0 +1,32 @@
+#notesDisplay{
+    width:150px;
+    /*height: 175px;*/
+    display: inline-block;
+    background-color: lightblue;
+    vertical-align: top;
+    margin: 2px;
+    
+}
+.general{
+    background-color: green;
+}
+.important{
+    background-color: darkorange;
+}
+.critical{
+    background-color: red;
+}
+.noteTitle{
+    text-align: center;
+}
+.noteContent{
+    width: 150px;
+    height: 125px;
+    position: relative; 
+}
+.removeButton{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

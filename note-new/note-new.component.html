@@ -1,0 +1,13 @@
+<div id="newNote">
+  <label>Title</label>
+  <input type='text' name='title' maxlength="20" [(ngModel)]='addingNewNotes.title'/><br/><br/>
+  <!--newTitle---{{addingNewNotes.title}}<br/>-->
+  <label>Note</label>
+  <input type='text' name='note' maxlength="50" [(ngModel)]='addingNewNotes.note'/><br/><br/>
+  <!--newNote---{{addingNewNotes.note}}<br/>-->
+  <input type='radio' name='priority' value='general' [(ngModel)] ='addingNewNotes.priority'/>General
+  <input type='radio' name='priority' value='important' [(ngModel)] ='addingNewNotes.priority'/>Important
+  <input type='radio' name='priority' value='critical' [(ngModel)] ='addingNewNotes.priority'/>Critical<br/>
+  <!--priority -- {{addingNewNotes.priority}}<br/>-->
+  <input type='submit' value='Add Note' (click)="addNote()"/>
+</div>

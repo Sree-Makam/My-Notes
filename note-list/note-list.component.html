@@ -1,0 +1,17 @@
+    <div *ngFor='let note of myNotes' id="notesDisplay" >
+      
+      
+      <div>   
+        <div > 
+          <div class='noteTitle'>           
+            <h4 >{{note.title}}</h4>
+            <!--<p>{{myNotes.indexOf(note)}}</p>-->
+          </div>
+          <div class='noteContent {{note.priority}}'>        
+            <p>{{note.note}}</p>
+            <button class='removeButton btn btn-danger' (click)="removeNote(myNotes.indexOf(note))"> X </button>   
+          </div>        
+        </div>           
+      </div>
+    
+  </div>

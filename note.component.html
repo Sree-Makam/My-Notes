@@ -1,0 +1,12 @@
+
+<div id="noteMain">
+  <div id="noteNewComp">
+    <app-note-new (addingNoteToArray) = 'pushingNewNote($event)' ></app-note-new>
+  </div>
+  <div id="noteListComp">
+    <app-note-list [myNotes] = "notes" (removeNoteFromArray) = 'removingNote($event)'></app-note-list>
+  </div>
+  <!--<div>{{notes | json}}</div>-->
+  
+</div>
+

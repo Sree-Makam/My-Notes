@@ -1,0 +1,20 @@
+#noteListComp{
+    width: 80%;
+    height: 100%;;
+    /*background-color: rosybrown;*/
+    display: inline-block;
+    vertical-align: top;
+}
+
+#noteMain{
+    background-color: lightcoral;
+    height: 85vh;
+}
+
+#noteNewComp{
+    width: 19%;
+    height: 100%;
+    background-color: lightgreen;
+    display: inline-block;
+    /*vertical-align: t*/
+}
